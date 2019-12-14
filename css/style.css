@@ -7,11 +7,11 @@
 .btn-whatsapp {
         display:block;
         width:10%;
-        height:50%;
+        height:30%;
         color#fff;
         position: fixed;
-        right:20px;
-        bottom:20px;
+        right:30px;
+        bottom:30px;
         border-radius:50%;
         line-height:80px;
         text-align:center;
