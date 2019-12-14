@@ -6,12 +6,12 @@
 --*/
 .btn-whatsapp {
         display:block;
-        width:7px;
-        height:10%;
+        width:30px;
+        height:30px;
         color#fff;
         position: fixed;
         left:30px;
-        bottom:30px;
+        bottom:10px;
         border-radius:50%;
         line-height:80px;
         text-align:center;
