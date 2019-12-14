@@ -4,21 +4,23 @@
 	License: Creative Commons Attribution 3.0 Unported
 	License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-.btn-whatsapp {
-        display:block;
-        width:100;
-        height:150;
-        color#fff;
-        position: fixed;
-        left:30px;
-        bottom:10%;
-        border-radius:100%;
-        line-height:17px;
-        text-align:center;
-        z-index:999;
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  left:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
 }
 
-
+.whatsapp-icon {
+  margin-top:13px;
+}
 
 
 html,
