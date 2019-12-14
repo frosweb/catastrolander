@@ -7,13 +7,13 @@
 .btn-whatsapp {
         display:block;
         width:30px;
-        height:10px;
+        height:40px;
         color#fff;
         position: fixed;
         left:30px;
         bottom:10px;
         border-radius:50%;
-        line-height:80px;
+        line-height:100px;
         text-align:center;
         z-index:999;
 }
