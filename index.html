@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<title>Catastro Tomas Lander</title>
+<title>Catastro del Municipio Tomas Lander</title>
 <meta name="google-site-verification" content="GzhOj0tuuTA-G8iYicpDLh46mm1putadJiHNROQWGr4" />
-<meta name="keywords" content="Alcaldia Tomas Lander" />
-<meta  name="author" content="Alcaldia Tomas Lander"/>
+<meta name="keywords" content="Genkerver Tovar, Catastro, Secretaria para el Derecho a la Ciudad, Alcaldia, Tomas Lander, Administracion Publica" />
+<meta  name="author" content="Alcaldia del Municipio Tomas Lander"/>
 <meta name="application-name" content="Catastro Tomas Lander" />
-<meta name="msapplication-tooltip" content="Alcaldia Municipio Tomas Lander" />
+<meta name="msapplication-tooltip" content="catastrolander@gmail.com. catastrolander.org.ve, catastro, servicios, planos, mensuras, cedula catastral, estado de cuentas, municipio, tomas lander" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Catastro del Municipio Tomas Lander" />
+<meta property="og:description" content="La Dirección de Catastro es el ente responsable de planificar, dirigir y ejecutar, todas las actividades relacionadas con la formación, actualización y conservación del Catastro económico, físico y jurídico en el ámbito territorial del Municipio Tomás Lander del Estado Bolivariano de Miranda, implementando un sistema de información confiable que permita almacenar y acceder de manera eficiente a la información catastral que los usuarios requieran." />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="http://giefco.com.ve" />
+<meta property="og:image" content="https://catastrolander.org.ve/images/o1.png" />
+<meta property="og:image:width" content="300" />
+<meta property="og:image:height" content="203" />
+<meta property="og:url" content="https://catastrolander.org.ve/" />
+<meta property="og:site_name" content="Catastro Lander" />
+<meta name="twitter:site" content="@Ocumare_EresTU">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8" />
 <link rel="stylesheet" href="css/bootstrap.css">
@@ -15,14 +26,83 @@
 <link href="css/font-awesome.css" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<script>
+            function validarForm() {
+                var verificar = true;
+                var expRegEmail = /^[\W-\.]+@ ([\W-]+\.)+[\W-]{2,4}$/;
+
+                if(!document.mail_frm.de_text.value){
+                alert("El campo 'De' es requerido");
+                document.mail_frm.de_txt.focus();
+                verificar = false;
+            } else if(!expRegEmail.exec(document.mail_frm.de_txt.value)){
+                alert("El campo 'De' no es valido");
+                document.mail_frm.de_txt.focus();
+                verificar = false;
+            } else if(!document.mail_frm.para_text.value){
+                alert("El campo 'Para' es requerido");
+                document.mail_frm.para_txt.focus();
+                verificar = false;
+            } else if(!expRegEmail.exec(document.mail_frm.para_txt.value)){
+                alert("El campo 'Para' no es valido");
+                document.mail_frm.para_txt.focus();
+                verificar = false;
+            } else if (!document.mail_frm.asunto_txt.value){
+                alert("El campo 'Asunto' es requerido");
+                document.mail_frm.asunto_txt.focus();
+                verificar = false;
+            } else if (!document.mail_frm.mensaje_txa.value){
+                alert("El campo 'Mensaje' es requerido");
+                document.mail_frm.mensaje_txa.focus();
+                verificar = false;
+            }
+             if (verificar){
+                 document.mail_frm.submit();
+            }
+}
+    window.onload = function (){
+        document.mail_frm.enviar_btn.onclick = validarForm;
+    }
+        </script>
+        
+        <script type="application/ld+json">
+	{
+	   "@context": "http://schema.org",
+	   "@type": "WebSite",
+	   "url" : "https://catastrolander.org.ve/",
+	   "potentialAction": {
+		 "@type": "SearchAction",
+		 "target": "https://catastrolander.org.ve/?s={search_term_string}",
+		 "query-input": "required name=search_term_string"
+	   },
+	   "publisher" : { 
+		  "@type" : "Organization",
+		  "name" : "Catastro del Municipio Tomas Lander",
+		  "url" : "https://catastrolander.org.ve/",
+		  "logo": "https://catastrolander.org.ve/images/o1.png",
+		  "contactPoint" : [
+			{ "@type" : "ContactPoint",
+			  "telephone" : "+58 424 247 50 83",
+			  "email" : "catastrolander@gmail.com",
+			  "url" : "https://catastrolander.org.ve/",
+			  "contactType" : "sales"
+			},
+			{ "@type" : "ContactPoint",
+			  "email" : "catastrolander@gmail.com",
+			  "telephone" : "+58 424 247 50 83",
+			  "url" : "https://catastrolander.org.ve/",
+			  "contactType" : "customer service"
+			} ],
+		  "sameAs" : [ "https://www.facebook.com/Alcaldia-Tom%C3%A1s-Lander-268618577314563/,
+			"https://twitter.com/Ocumare_EresTU",
+			}
+	}
+	</script>
 </head>
 <body>
-   <!-- header -->
 <header>
 	<div class="container">
-		<!-- nav -->
-		<nav class="py-3 d-lg-flex">
-			
+	<nav class="py-3 d-lg-flex">
 			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
 			<input type="checkbox" id="drop" />
 			<ul class="menu ml-auto mt-1">
@@ -32,49 +112,31 @@
 				<li class=""><a href="#contact">Contacto</a></li>
 			</ul>
 		</nav>
-		<!-- //nav -->
 	</div>
 </header>
-<!-- //header -->
-
-
-<!-- banner -->
 <div class="banner" id="home">
-	<div class="layer">
-		<div class="container">
-			<div class="banner-text-w3pvt">
-				<!-- banner slider-->
-			
-							<div class="w3ls_banner_txt">
-				
-								<h2 class="b-w3ltxt text-capitalize mt-md-4">Catastro Tomas Lander</h2>
-						<a href="https://catastrolander.org.ve/estado-de-cuentas/" class="btn btn-banner my-sm-3 mr-2">Descargar</a>
+<div class="layer">
+<div class="container">
+<div class="banner-text-w3pvt">
+<div class="w3ls_banner_txt">
+<h2 class="b-w3ltxt text-capitalize mt-md-4">Catastro Tomas Lander</h2>
+<a href="https://catastrolander.org.ve/estado-de-cuentas/" class="btn btn-banner my-sm-3 mr-2">Descargar</a>
 								
-							</div>
-				
-					
-					</ul>
+</div>
+</ul>
 <center><div class="col-lg-6 rigth-img">
-				<img src="images/o1.png" class="img-fluid" alt="" />
-			</div></center>
-					<div class="navigation">
-						<div>
-							<label for="slides_1"></label>
-							<label for="slides_2"></label>
-							<label for="slides_3"></label>
-						</div>
-					</div>
-				</div>
-				
-				<!-- //banner slider-->
-			</div>
-		</div>
+<img src="images/o1.png" class="img-fluid" alt="" /></div></center>
+<div class="navigation"><div>
+		<label for="slides_1"></label>
+			<label for="slides_2"></label>
+				<label for="slides_3"></label>
+	</div>
+	</div>
+	</div>
 	</div>
 </div>
- 
-
-<!-- //banner -->
-<!-- about -->
+	</div>
+</div>
 <section class="services py-5" id="services">
 	<div class="container py-md-5 py-3">
 	  <h5 class="heading mb-2"></h5>
@@ -83,52 +145,48 @@
 			<div class="col-lg-4 col-md-6 col-sm-6 mb-5">
 				<div class="bottom-gd">
 					<span>01</span>
-								 
-		<a href="https://catastrolander.org.ve/estado-de-cuentas/"><h3 class="mt-4"><font color="black">Avaluos</font> </h3></a>
-					<p class="mt-2">Es el valor del inmueble que le da la Dirreccion del Catastro, el cual es la base imponible para realizar el calculo por propiedad inmobliaria, cabe destacar que este valor es establecido segun La Organica del Poder Publico Municipal.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-				<div class="bottom-gd">
-					<span>02</span>
-					<h3 class="mt-4"> Cedula Catastral</h3>
-					<p class="mt-2">Constituye un instrumento básico para el proceso de formación y conservación del catastro; la misma estará conformada por campos de datos que servirán de soporte fundamental para la estructuración de la base de datos del Sistema Nacional de Catastro.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-				<div class="bottom-gd">
-					<span>03</span>
-					<h3 class="mt-4"> Certificacion de Linderos</h3>
-					<p class="mt-2">La Mensura aborda el aspecto físico del catastro, es la representación y descripción gráfica, numérica y estadística que muestra las indicaciones, linderos y dimensiones del Inmueble.</p>
-				</div>
-			</div>
-		
-			<div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-				<div class="bottom-gd">
-					<span>04</span>
-					<h3 class="mt-4">Asesoria Tecnica</h3>
-					<p class="mt-2">El catastro segun su ordenamiento jurido esta en el debe de brindar asesoria tecnica catastral, en cuanto se refiera la importancia que tien este, ya que esta depende de una infomacion vital para la ordenazion del ambito de municipio.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6  mb-5">
-				<div class="bottom-gd">
-					<span>05</span>
-					<h3 class="mt-4"> Asesoria C.T.U</h3>
-					<p class="mt-2">Al catastro se le asigna la responsabilidad tecnica de dirigir a los Comite de Tierras Urbana en materia de regularizacion de la tenencia de la tierras, en los comite recae la importancia de los parcelamiento es una de la bases para las titularidad de tierras Urbnas.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-				<div class="bottom-gd">
-					<span>06</span>
-					<h3 class="mt-4"> Titularidad de Terrenos</h3>
-					<p class="mt-2">A traves de la Oficina Tecnica Municipal de Tierra se encarga de la regularizacion de las tierras para su justa distribucion entre los habitante de las diferentes comunidades, el cual esta comprometida a realizar las entrega de titulos de tierras en propiedad colectiva como en propiedad familiar.</p>
-				</div>
-			</div>
-			</div>
+<a href="https://catastrolander.org.ve/estado-de-cuentas/"><h3 class="mt-4"><font color="black">Avaluos</font> </h3></a>
+<p class="mt-2">Es el valor del inmueble que le da la Dirreccion del Catastro, el cual es la base imponible para realizar el calculo por propiedad inmobliaria, cabe destacar que este valor es establecido segun La Organica del Poder Publico Municipal.</p>
 	</div>
+	</div>
+	<div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+	<div class="bottom-gd">
+	<span>02</span>
+	<h3 class="mt-4"> Cedula Catastral</h3>
+	<p class="mt-2">Constituye un instrumento básico para el proceso de formación y conservación del catastro; la misma estará conformada por campos de datos que servirán de soporte fundamental para la estructuración de la base de datos del Sistema Nacional de Catastro.</p>
+	</div>
+	</div>
+	<div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+	<div class="bottom-gd">
+       <span>03</span>
+	<h3 class="mt-4"> Certificacion de Linderos</h3>
+<p class="mt-2">La Mensura aborda el aspecto físico del catastro, es la representación y descripción gráfica, numérica y estadística que muestra las indicaciones, linderos y dimensiones del Inmueble.</p>
+	</div>
+	</div>
+	<div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+<div class="bottom-gd">
+<span>04</span>
+<h3 class="mt-4">Asesoria Tecnica</h3>
+<p class="mt-2">El catastro segun su ordenamiento jurido esta en el debe de brindar asesoria tecnica catastral, en cuanto se refiera la importancia que tien este, ya que esta depende de una infomacion vital para la ordenazion del ambito de municipio.</p>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6  mb-5">
+	<div class="bottom-gd">
+	<span>05</span>
+        <h3 class="mt-4"> Asesoria C.T.U</h3>
+<p class="mt-2">Al catastro se le asigna la responsabilidad tecnica de dirigir a los Comite de Tierras Urbana en materia de regularizacion de la tenencia de la tierras, en los comite recae la importancia de los parcelamiento es una de la bases para las titularidad de tierras Urbnas.</p>
+       </div>
+	</div>
+	<div class="col-lg-4 col-md-6 col-sm-6 mb-5">
+	<div class="bottom-gd">
+		<span>06</span>
+<h3 class="mt-4"> Titularidad de Terrenos</h3>
+<p class="mt-2">A traves de la Oficina Tecnica Municipal de Tierra se encarga de la regularizacion de las tierras para su justa distribucion entre los habitante de las diferentes comunidades, el cual esta comprometida a realizar las entrega de titulos de tierras en propiedad colectiva como en propiedad familiar.</p>
+</div>
+</div>
+</div>
+</div>
 </section>
-<!-- //about -->
-<!-- about bottom -->
 <section class="about-bottom py-5" id="about">
 	<div class="container py-md-5 py-3">
 	<h5 class="heading mb-2">  </h5>
@@ -143,15 +201,15 @@
 						<span class="fa fa-bullseye"></span>
 					</div>
 					<div class="col-md-10">
-						<h5 class="mt-md-0 mt-2">Catastro</h5>
-						<p class="mt-3">
-La Dirección de Catastro es el ente responsable de planificar, dirigir y ejecutar, todas las actividades relacionadas con la formación, actualización y conservación del Catastro económico, físico y jurídico en el ámbito territorial del Municipio Tomás Lander.
+		<h5 class="mt-md-0 mt-2">Catastro</h5>
+<p class="mt-3">
+La Dirección de Catastro es el ente responsable de planificar, dirigir y ejecutar, todas las actividades relacionadas con la formación, actualización y conservación del Catastro económico, físico y jurídico en el ámbito territorial del Municipio Tomás Lander.</p>
 							
-					</div>
-					<div class="col-md-2 mt-5">
-						<span class="fa fa-lightbulb-o"></span>
-					</div>
-					<div class="col-md-10 mt-md-5">
+	</div>
+	<div class="col-md-2 mt-5">
+	<span class="fa fa-lightbulb-o"></span>
+	</div>
+	<div class="col-md-10 mt-md-5">
 						<h5 class="mt-md-0 mt-2">Mision</h5>
 						<p class="mt-3">
 	Administrar y mantener actualizado el catastro de los bienes inmuebles, atendiendo a sus características físicas, económicas y jurídicas orientado, proveyendo información que sirva para el diseño, la ejecución y evaluación de las políticas públicas, el apoyo a la recaudación del impuesto inmobiliario, la planificación territorial, y la consolidación de los derechos de propiedad de los bienes inmuebles. </p>
@@ -169,94 +227,72 @@ La Dirección de Catastro es el ente responsable de planificar, dirigir y ejecut
 					<div class="col-md-10">
 						<h5 class="mt-md-0 mt-2">Vision</h5>
 						<p class="mt-3">Ser un ejemplo de Institución Pública, moderna, transparente y eficiente, al servicio de los ciudadanos caracterizado por su accesibilidad, calidad, y agilidad en el desarrollo de las diversas prestaciones.</p>
-						
-					</div>
-					<div class="col-md-2 mt-5">
-						<span class="fa fa-bullhorn"></span>
-					</div>
-					<div class="col-md-10 mt-md-5">
-						<h5 class="mt-md-0 mt-2">Oficina tecnica de Tierras Urbanas</h5>
-						<p class="mt-3">La oficina técnica municipal de tenencia de la tierra urbana es responsable de coordinar y tramitar política vinculadas con planes integrales de ordenamiento territorial dentro de la visión integral de la tenencia de la tierra urbana en los diversos sectores del municipio Tomas Lander</p>
-						
-					</div>
-				</div>
+		</div>
+	<div class="col-md-2 mt-5">
+		<span class="fa fa-bullhorn"></span>
+	</div>
+	<div class="col-md-10 mt-md-5">
+<h5 class="mt-md-0 mt-2">Oficina tecnica de Tierras Urbanas</h5>
+<p class="mt-3">La oficina técnica municipal de tenencia de la tierra urbana es responsable de coordinar y tramitar política vinculadas con planes integrales de ordenamiento territorial dentro de la visión integral de la tenencia de la tierra urbana en los diversos sectores del municipio Tomas Lander</p>
+			</div>
+			</div>
 			</div>
 			<div class="col-lg-6 left-img">
-				<center><h4 class="mt-md-0 mt-2">Organigrama</h4></center>
-				<img src="images/st11.png" class="img-fluid" alt="" />
-			</div> 
+			<center><h4 class="mt-md-0 mt-2">Organigrama</h4></center>
+		<img src="images/st11.png" class="img-fluid" alt="" />
+		</div> 
 		</div>
 	</div>
 </section>
-<!-- //about bottom -->
-
-<!-- Contact page -->
 <center>
 	<section class="contact py-5" id="contact">
 	<div class="container py-md-5 py-5">
 	<h5 class="heading mb-2">  </h5>
-		<h3 class="heading mb-sm-5 mb-3">Ubicacion</h3>
-	
-		
-				
-	<a href="https://wa.me/584242475083?text=Ocumare%20Eres%20Tu%20" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-			</div>
-			
-				<center>
-				<div class="contact_border p-4">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62847.19072173676!2d-66.82926064106265!3d10.103226202858554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2ae78b1dd98f85%3A0x2b31e77cbe699e66!2sOcumare%20del%20Tuy%2C%20Miranda!5e0!3m2!1ses!2sve!4v1576204798330!5m2!1ses!2sve" width="90%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div></center>
-			</div>
-	</div>
+<h3 class="heading mb-sm-5 mb-3">Ubicacion</h3>				
+<a href="https://wa.me/584242475083?text=Ocumare%20Eres%20Tu%20" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+</div>
+<center>
+<div class="contact_border p-4">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62847.19072173676!2d-66.82926064106265!3d10.103226202858554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2ae78b1dd98f85%3A0x2b31e77cbe699e66!2sOcumare%20del%20Tuy%2C%20Miranda!5e0!3m2!1ses!2sve!4v1576204798330!5m2!1ses!2sve" width="90%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div></center>
+</div>
+</div>
 </section>
-<!-- //Contact page -->
-
-<!-- footer -->
-
-<!-- footer -->
 <footer class="py-md-5 py-3">
 	<div class="container py-md-5 py-3">
 		<div class="row footer-grids">
-			<div class="col-lg-3 col-sm-6 mb-lg-0 mb-sm-5 mb-4">
-				<h4 class="mb-4"> Ocumare Eres Tu</h4>
-				<p class="mb-3">Secretaria Coordinadora para el Derecho a la Ciudad</p>
-				
-			</div>
-			<div class="col-lg-3 col-sm-6 mb-md-0 mb-sm-5 mb-4">
-				<h4 class="mb-4">Direccion</h4>
-				<p><span class="fa mr-2 fa-map-marker"></span>Ocumare del tuy, calle Bolivar con Calle Miranda<span> Estado Bolivariano de Miranda.</span></p>
-				<p class="phone py-2"><span class="fa mr-2 fa-phone"></span> +584242475083 </p>
-				<p><span class="fa mr-2 fa-envelope"></span><a href="mailto:catastrolander@gmail.com">catastrolander@gmail.com</a></p>
-			</div>
-			<div class="col-lg-2 col-sm-6 mb-lg-0 mb-sm-5 mb-4">
-				<h4 class="mb-4">Redes Sociales</h4>
-				<ul>
-					<li><a href="https://www.facebook.com/ocumare.erestu.58" target="_blank">Facebook </a></li>
-					<li class="my-2"><a href="https://twitter.com/Ocumare_EresTU" target="_blank">Twitter</a></li>
-					<li><a href="https://www.instagram.com/alcaldiaocumare/" target="_blank">Instagram</a></li>
-					<li class="mt-2"><a href="https://prensaalcaldiatomaslander.blogspot.com/"target="_blank">Feed</a></li>
-				</ul>
-			</div>
-			
-		</div>
+<div class="col-lg-3 col-sm-6 mb-lg-0 mb-sm-5 mb-4">
+<h4 class="mb-4"> Ocumare Eres Tu</h4>
+<p class="mb-3">Secretaria Coordinadora para el Derecho a la Ciudad</p>
+</div>
+<div class="col-lg-3 col-sm-6 mb-md-0 mb-sm-5 mb-4">
+<h4 class="mb-4">Direccion</h4>
+  <p><span class="fa mr-2 fa-map-marker"></span>Ocumare del tuy, calle Bolivar con Calle Miranda<span> Estado Bolivariano de Miranda.</span></p>
+<p class="phone py-2"><span class="fa mr-2 fa-phone"></span> +584242475083 </p>
+<p><span class="fa mr-2 fa-envelope"></span><a href="mailto:catastrolander@gmail.com">catastrolander@gmail.com</a></p>
+	</div>
+<div class="col-lg-2 col-sm-6 mb-lg-0 mb-sm-5 mb-4">
+<h4 class="mb-4">Redes Sociales</h4>
+<ul>
+<li><a href="https://www.facebook.com/Alcaldia-Tom%C3%A1s-Lander-268618577314563/" target="_blank">Facebook </a></li>
+<li class="my-2"><a href="https://twitter.com/Ocumare_EresTU" target="_blank">Twitter</a></li>
+<li><a href="https://www.instagram.com/alcaldiaocumare/" target="_blank">Instagram</a></li>
+<li class="mt-2"><a href="https://prensaalcaldiatomaslander.blogspot.com/"target="_blank">Feed</a></li>
+		</ul>
+	</div>	
+	</div>
 	</div>
 </footer>
-<!-- //footer -->
-<!-- copyright -->
 <div class="copyright">
-	<div class="container py-4">
-		<div class=" text-center">
-			<p>© 2019. All Rights Reserved | Design by <a href="https://www.facebook.com/omarjosb"> Obione Desing Web</a></p>
-
-		</div>
-	</div>
+<div class="container py-4">
+<div class=" text-center">
+<p>© 2019. All Rights Reserved | Design by <a href="https://www.facebook.com/omarjosb"> Obione Desing Web</a></p>
 </div>
-<!-- //copyright -->
-		
-<!-- move top -->
+</div>
+</div>
 <div class="move-top text-right">
-	<a href="#home" class="move-top"> 
-		<span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
-	</a>
+<a href="#home" class="move-top"> 
+<span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+</a>
 </div>
 </body>
 </html>
