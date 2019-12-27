@@ -4,6 +4,35 @@
 	License: Creative Commons Attribution 3.0 Unported
 	License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+p.round3 {
+    font-family: "arial", serif;
+    font-size: 14pt;
+    padding: 0;
+    margin: 0; 
+ text-align: center;
+    height: 35px;
+    width: 90%;
+    background: #d63f3f;
+  border: 2px solid #F63636;
+  border-radius: 15px;
+}
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:190px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:15px;
+}
 
 html,
 body {
