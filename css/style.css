@@ -5,16 +5,15 @@
 	License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 p.round3 {
-    font-family: "arial", serif;
-    font-size: 14pt;
-    padding: 0;
-    margin: 0; 
- text-align: center;
-    height: 35px;
-    width: 90%;
-    background: #d63f3f;
-  border: 2px solid #F63636;
-  border-radius: 15px;
+color: #fff;
+font-family: 'Poppins', sans-serif;
+font-size: 13px;
+text-align: center;
+height: 30px;
+ width: 90%;
+background: #F63636;
+border: 2px solid #F63636;
+border-radius: 15px;
 }
 
 .whatsapp {
