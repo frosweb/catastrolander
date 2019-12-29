@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: arial;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -16,14 +16,17 @@ header{
     height: 40px;
     font-size: 20px;
     text-indent: 10px;
+    border: 2px solid #F63636;
+     border-radius: 15px;
 }
 
 .content-search{
-    width: 100%;
+    border-radius: 15px;
+    width: 90%;
     height:
     position: ;
     left: 10;
-    background: rgba(0,0,0,0.3);
+    background: #F63636;
     display: none;
 }
 
@@ -34,26 +37,30 @@ header{
     margin-left: 10px;
     overflow-y: visible;
     overflow-x: hidden;
+    border-radius: 15px;
 }
 
 .content-table table{
-    width: 100%;
+
+     width: 100%;
 }
 
 tbody tr td a{
     display: block;
     padding: 10px;
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
 tbody tr td a:hover{
-    background: rgba(0,0,0,0.3);
+    background: #fff;
+    border-radius: 15px;
 }
 
 #table_length, #table_filter, #table_info, #table_paginate{
     display: none;
 }
+
 
 
 
