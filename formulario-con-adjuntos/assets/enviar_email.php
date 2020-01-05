@@ -67,11 +67,13 @@
         return(mail($sPara, $sAsunto, $sCuerpo, $sCabeceras)); 
     } 
          
+      } 
+         
         //Ejemplo de como usar: 
-        if (form_mail("mailrecipiente@tudominio.com", 
+        if (form_mail("omarbandes@gmail.com", 
                                     "El nombre del remitente", 
                                     "Los datos introducidos en el formulario son:\n", 
-                                    "tumail@tudominio.com")) 
+                                    "omarbandes@gmail.com")) 
         echo "Su formulario ha sido enviado con exito"; 
          
         // Ejemplo de como usar, poniendo como remitente el campo pasado de E-mail 
