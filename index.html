@@ -22,11 +22,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8" />
 <link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<link rel="stylesheet" href="css/slider.css" type="text/css" media="all" />
-<link href="css/font-awesome.css" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="css/buscador.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/slider.css" type="text/css" media="all" />
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  
 	<script>
             function validarForm() {
                 var verificar = true;
@@ -101,47 +105,43 @@
    </head>
 <body>
 <header>
+
 <div class="container">
+
 <nav class="py-3 d-lg-flex">
 <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
 <input type="checkbox" id="drop" />
 <ul class="menu ml-auto mt-1">
 <li class="active"><a href="https://catastrolander.org.ve/">Inicio</a></li>
-<li class=""><a href="#about">Quienes somos</a></li>
-<li class=""><a href="#services">Servicios</a></li>
-<li class=""><a href="#contact">Plano del Municipio</a></li>
-
+<li class=""><a href="#identificacion">Quienes somos</a></li>
+<li class=""><a href="#servicios">Servicios</a></li>
+<li class=""><a href="#planos">Plano del Municipio</a></li>
+<li class="last-grid"><a href="#online">Liquidaciones</a></li>
 </ul>
 </nav>
 </div>
 </header>
+
 <div class="banner" id="home">
+
 <div class="layer">
 <div class="container">
 <div class="banner-text-w3pvt">
 <div class="w3ls_banner_txt">
-<h3 class="b-w3ltxt text-capitalize mt-md-4">Catastro Tomas Lander</h3>
-<a href="https://catastrolander.org.ve/estado-de-cuentas/" class="btn btn-banner my-sm-3 mr-2">Liquidaciones</a>
+<h4 class="b-w3ltxt text-capitalize mt-md-4">Catastro del Municipio Tomas Lander</h4>
+<h1 class="b-w3ltxt text-capitalize mt-md-4">Ocumare Eres Tu!!!</h1>
 </div>
 </ul>
 <center><div class="col-lg-6 rigth-img">
-<img src="images/o1.jpg" class="img-fluid" alt="" /></div></center>
+</center>
 <div class="navigation"><div>
-<label for="slides_1"></label>
-<label for="slides_2"></label>
-<label for="slides_3"></label>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+</div></div></div></div></div></div>
 <center><p class="round3">
 <marquee scrolldelay=80> Descuento del 20% sobre impuestos de propiedad inmobiliaria.  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Ocumare eres tu!!! 
 <a href="#" target="_blank"></a>
 </marquee></p></center>
-<section class="services py-5" id="services">
+<section class="services py-5" id="servicios">
+
 <div class="container py-md-5 py-3">
 <h5 class="heading mb-2"></h5>
 <h3 class="heading  mb-5">Servicios</h3>
@@ -191,7 +191,7 @@
 </div>
 </div>
 </section>
-<section class="about-bottom py-5" id="about">
+<section class="about-bottom py-5" id="identificacion">
 <div class="container py-md-5 py-3">
 <h5 class="heading mb-2">  </h5>
 <h3 class="heading mb-sm-5 mb-3">Catastro Municipal Tomas Lander</h3>
@@ -234,22 +234,88 @@ Administrar y mantener actualizado el catastro de los bienes inmuebles, atendien
 <span class="fa fa-bullhorn"></span>
 </div>
 <div class="col-md-10 mt-md-5">
-<h5 class="mt-md-0 mt-2">Oficina Tecnica Municipal de Tierras Urbanas</h5>
+<h5 class="mt-md-0 mt-2">Oficina tecnica de Tierras Urbanas</h5>
 <p class="mt-3">La oficina técnica municipal de tenencia de la tierra urbana es responsable de coordinar y tramitar política vinculadas con planes integrales de ordenamiento territorial dentro de la visión integral de la tenencia de la tierra urbana en los diversos sectores del municipio Tomas Lander.</p>
 </div>
 </div>
 </div>
 <div class="col-lg-6 left-img">
-<center><h4 class="mt-md-0 mt-2">Organigrama</h4></center>
-<img src="images/st11.jpg" class="img-fluid" alt="Organigrama" />
+<center><h4 class="mt-md-0 mt-2">Organigrama</h4></center><br>
+<a href="#gal1"><img src="images/st11.jpg" class="img-fluid" alt="Organigrama"  alt="portfolio image" class="img-fluid"></a>
+</div>
+</div>
+<div id="gal1" class="pop-overlay animate">
+<div class="popup">
+<img src="images/st11.jpg" alt="Popup Image" class="img-fluid" />
+<center><p class="mt-4">Organigrama de la Dirección del Catastro</p></center>
+<a class="close" href="#portfolio">&times;</a>
 </div>
 </div>
 </section>
+<section class="text py-5" id="online">
+<div class="container py-md-5 py-3 text-center">        
+<div class="row">
+<div class="col-12">
+<h2 class="mb-4 heading">liquidaciones <span></span></h2>
+<p><li>Para verificar su solicitud debe colocar el código catastral.</p></li><br>
+<p><li>Una vez descargado deberá colocar el número de cedula de identidad del propietario para desbloquear el archivo.</p></li>
+</div>  
+<div class="col-md-6 padding">
+<div class="bottom-gd">
+<p><font size:100%>
+<input type="search" id="input-search" placeholder="Buscar aqui">
+<div class="content-search">
+<div class="content-table">
+<table id="table">
+<thead>
+<tr>
+<td></td>
+</tr>
+</thead>
+<tbody>
+
+<!-----------------------------------url de liquidaciones------------------------------------------------------------------------------->   
+
+
+    <tr>
+<td><a href="https://catastrolander.org.ve/archivos/1693OMARBANDES.rar" target="_blank">1693 omar bandes</a></td>
+</tr>
+    <tr>
+<td><a href="https://catastrolander.org.ve/archivos/1835JUANATERESAJIMENEZ.rar" target="_blank">1835 Teresa Jimenez</a></td>
+</tr>
+    <tr>
+<td><a href="https://catastrolander.org.ve/archivos/6122MAGALYRODIGUEZ.pdf" target="_blank">6122 magaly rodriguez</a></td>
+</tr>
+    <tr>
+<td><a href="https://catastrolander.org.ve/archivos/6418LUISMARTINEZ.pdf" target="_blank">6418 luis martinez</a></td>
+</tr>
+    <tr>
+<td><a href="https://catastrolander.org.ve/archivos/5400ALANERMIZS.rar" target="_blank">5400 alan ermizs</a></td>
+</tr>
+    <tr>
+<td><a href="https://catastrolander.org.ve/archivos/1496LUISAPONTE.rar" target="_blank">1496 luis aponte</a></td>
+</tr>
+
+    <!----------------------------- final de la url de liquidaciones-------------------------------------->
+    
+
+
+
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>          
+</div>
+</div>      
 <center>
-<section class="contact py-5" id="contact">
+<section class="contact py-5" id="planos">
 <div class="container py-md-5 py-5">
 <h5 class="heading mb-2">  </h5>
-<h3 class="heading mb-sm-5 mb-3">Ubicacion</h3>				
+<h3 class="heading mb-sm-5 mb-3">Municipio Tomas Lander</h3>				
 <a href="https://wa.me/584242475083?text=Ocumare%20Eres%20Tu%20" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 </div>
 <center>
@@ -281,6 +347,9 @@ Administrar y mantener actualizado el catastro de los bienes inmuebles, atendien
 <li class="mt-2"><a href="https://prensaalcaldiatomaslander.blogspot.com/" target="_blank">Feed</a></li>
 </ul>
 </div>	
+<div class="col-lg-4 col-sm-6">
+<center> <img src="images/o1.jpg" class="img-fluid" alt="" /></div></center>
+</div>
 </div>
 </div>
 </footer>
@@ -296,5 +365,6 @@ Administrar y mantener actualizado el catastro de los bienes inmuebles, atendien
 <span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
 </a>
 </div>
+<script src="js/search.js"></script>
 </body>
 </html>
