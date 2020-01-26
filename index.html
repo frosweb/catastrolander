@@ -24,6 +24,7 @@
 <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/buscador.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+   
     <link rel="stylesheet" href="css/slider.css" type="text/css" media="all" />
     <script src="js/jquery.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
@@ -101,7 +102,37 @@
 			}
 	}
 	</script>
-   </head>
+    <style type="text/css">
+  .boton_personalizado{
+    text-decoration: none;
+    padding: 9px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #F63636;
+    border-radius: 7px;
+    border: 1px double  #F63636;
+  }
+</style>
+<style type="text/css">
+  .boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #F63636;
+    border-radius: 7px;
+    border: 1px double #F63636;
+  }
+  .boton_personalizado:hover{
+    color: #F63636;
+    background-color: #fff;
+  }
+</style>
+</head>
 <body>
 <header>
 <div class="container">
@@ -141,47 +172,32 @@
 <h3 class="heading  mb-5">Servicios</h3>
 <div class="feature-grids row">
 <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-<div class="bottom-gd">
-<span>01</span>
 <h3 class="mt-4">Avaluos</h3>
-<p class="mt-2">Es el valor del inmueble que le da la Dirección del Catastro, el cual es la base imponible para realizar el cálculo por propiedad inmobiliaria, cabe destacar que este valor es establecido según La Orgánica del Poder Público Municipal.</p>
-</div>
+<p class="mt-2">Es el valor del inmueble que le da la Dirección del Catastro, el cual es la base imponible para realizar el cálculo por propiedad inmobiliaria, cabe destacar que este valor es establecido según La Orgánica del Poder Público Municipal. </p>
+<br><a class="boton_personalizado" href="https://catastrolander.org.ve/avaluo" target="_blank">Leer mas</a>
 </div>
 <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-<div class="bottom-gd">
-<span>02</span>
 <h3 class="mt-4"> Cedula Catastral</h3>
-<p class="mt-2">Constituye un instrumento básico para el proceso de formación y conservación del catastro; la misma estará conformada por campos de datos que servirán de soporte fundamental para la estructuración de la base de datos del Sistema Nacional de Catastro.</p>
-</div>
+<p class="mt-2">Constituye un instrumento básico para el proceso de formación y conservación del catastro; la misma estará conformada por campos de datos que servirán de soporte fundamental para la estructuración del Catastro.</p>
+<br><a class="boton_personalizado" href="https://catastrolander.org.ve/cedula-catastral" target="_blank">Leer mas</a>
 </div>
 <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-<div class="bottom-gd">
-<span>03</span>
 <h3 class="mt-4"> Certificacion de Linderos</h3>
 <p class="mt-2">La Mensura aborda el aspecto físico del catastro, es la representación y descripción gráfica, numérica y estadística que muestra las indicaciones, linderos y dimensiones del Inmueble.</p>
-</div>
+<br>
+<a class="boton_personalizado" href="https://catastrolander.org.ve/mensura" target="_blank">Leer mas</a>
 </div>
 <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-<div class="bottom-gd">
-<span>04</span>
 <h3 class="mt-4">Asesoria Tecnica</h3>
 <p class="mt-2">El catastro según su ordenamiento jurídico está en él debe de brindar asesoría técnica catastral, en cuanto se refiera la importancia que tiene este, ya que esta depende de una información vital para la ordenación del ámbito del municipio.</p>
 </div>
-</div>
 <div class="col-lg-4 col-md-6 col-sm-6  mb-5">
-<div class="bottom-gd">
-<span>05</span>
 <h3 class="mt-4">Asesoria C.T.U</h3>
 <p class="mt-2">Al catastro se le asigna la responsabilidad técnica de dirigir a los Comité de Tierras Urbana en materia de regularización de la tenencia de la tierra, en los comités recae la importancia de los parcelamiento es una de las bases para las titularidades de tierras Urbanas.</p>
 </div>
-</div>
 <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-<div class="bottom-gd">
-<span>06</span>
 <h3 class="mt-4">Titularidad de Terrenos</h3>
 <p class="mt-2">A través de la Oficina Técnica Municipal de Tierra se encarga de la regularización de las tierras para su justa distribución entre los habitantes de las diferentes comunidades, el cual está comprometida a realizar las entregas de títulos de tierras en propiedad colectiva como en propiedad familiar.</p>
-</div>
-</div>
 </div>
 </div>
 </section>
@@ -397,5 +413,7 @@ Administrar y mantener actualizado el catastro de los bienes inmuebles, atendien
 </a>
 </div>
 <script src="js/search.js"></script>
+<script src="js/classie.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
